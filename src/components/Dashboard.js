@@ -11,7 +11,7 @@ export default function AtPlateCount() {
     const [hit, setHit] = useState(0);
 
     // add code to update the count here
-
+    
 
 
     return (
@@ -22,7 +22,7 @@ export default function AtPlateCount() {
             <button onClick={() => setBall(ball +1)}>Ball</button>
             <h1>Foul Count: {foul}</h1>
             <button onClick={() => setFoul(foul + 1)}>Foul</button>
-            <h1>Hit Count: {foul}</h1>
+            <h1>Hit Count: {hit}</h1>
             <button onClick={() => setHit(hit + 1)}>Hit</button>
         </div>
     )
